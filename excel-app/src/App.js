@@ -2,10 +2,25 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+
+
 class App extends Component {
   render() {
     return (
       <div className="App">
+
+      <form>
+        <label>
+          Name:
+          <input type="text" name="name"></input>
+        </label>
+        <label>
+          Email:
+          <input type="text" name="email"></input>
+        </label>
+        <input type="submit" value="Submit"></input>
+      </form>
+
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
@@ -17,7 +32,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Learn Reactz
           </a>
         </header>
       </div>
